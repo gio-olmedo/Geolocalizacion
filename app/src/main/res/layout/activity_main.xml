@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAlarma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="¡Ahora estás protegido!"
+        android:textSize="35dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Alerta: DESACTIVADA"
+        android:textColor="#99ff33"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <!--<TextView
+        android:id="@+id/tvMensajes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mensajes: DESACTIVADOS"
+        android:textColor="#99ff33"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>-->
+
+    <ImageView
+        android:id="@+id/ivCandado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seguro"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"/>
+
+    <!--<Button
+        android:id="@+id/btnAccionUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:text="Ver Contacto de confianza"/>-->
+
+</LinearLayout>

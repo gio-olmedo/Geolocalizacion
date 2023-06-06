@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Geolocalización</string>
+    <string name="llamadas">Llamadas</string>
+    <string name="boton_mostrarLlamadas">Mostrar log llamadas</string>
+    <string name="llamada_entrada">Llamada de entrada</string>
+    <string name="llamada_salida">Llamada de salida</string>
+    <string name="llamada_perdida">Llamada perdida</string>
+    <string name="llamada_desconocida">Llamada desconocida</string>
+    <string name="numero_etiqueta">Numero: </string>
+    <string name="fecha_etiqueta">Fecha: </string>
+    <string name="tipo_etiqueta">Tipo: </string>
+    <string name="duracion_etiqueta">Duración: </string>
+</resources>

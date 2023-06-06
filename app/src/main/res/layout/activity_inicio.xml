@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:text="Registro"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:id="@+id/etnombre"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Parentesco"
+        android:inputType="textShortMessage"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:id="@+id/etparentesco"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Teléfono"
+        android:inputType="number"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:id="@+id/etnumero"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registrar"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+        android:id="@+id/btnregistrar"
+        />
+
+</LinearLayout>
